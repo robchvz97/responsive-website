@@ -1,0 +1,141 @@
+main {
+    position: relative;
+    top:78px;
+}
+
+.content-one {
+    width: 100%;
+}
+
+.content-portada {
+    width: 100%;
+    background-image: url(../imgs/img1.png);
+    height:400px;
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:1000px){
+    .content-portada {
+        background-size: 1000px;
+        background-position: center center;
+    }
+}
+
+.content-item {
+    text-align: center;
+    margin: auto;
+    width:500px;
+    position: relative;
+    top:40px;
+}
+
+.content-item h4 {
+    color: white;
+    font-size:40px;
+}
+
+@media screen and (max-width:800px) {
+    .content-item{
+        width:100%;
+    }
+}
+
+
+/*CONTENT TWO*/
+
+.content-two {
+    width:100%;
+    padding: 40px;
+    background: #d9d9d9;
+}
+
+.content-details {
+    width:80%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-item2 {
+    width:300px;
+    text-align: center;
+    padding-right: 15px;
+}
+
+.icon-heart, .icon-laptop, .icon-support {
+    color: #e47171;
+    font-size: 30px;
+}
+
+
+/*CONTENT THREE*/
+
+.content-three {
+    width:100%
+}
+
+.content-module {
+    width:80%;
+    margin: auto;
+    text-align: center;
+    margin-top:20px;
+}
+
+.content-module img {
+    margin-top:30px;
+    transition: all 300ms;  /* velocidad de animación al regresar a la normalidad*/
+}
+
+.content-module h3 {
+    font-size: 30px;
+}
+
+.content-module img:hover {
+    transform: rotate(-10deg);
+    transition: all 300ms;
+}
+
+
+/*CONTENT FOUR*/
+
+
+.content-four {
+    width:100%;
+    background: #cce6ff;
+}
+
+.content-item3 {
+    width:80%;
+    margin: auto;
+    text-align: center;
+}
+
+.content-item3 h4{
+    padding-top:30px;
+    padding-bottom:30px;
+    font-size:25px;
+}
+
+.content-item3 img {
+    width:700px;
+}
+
+.content-item3 p {
+    padding-bottom:20px;
+    text-align: center;
+}
+
+@media screen and (max-width:800px){
+    .content-item3 img {
+        width:500px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .content-item3 img {
+        width:250px;
+    }
+}
